@@ -1,0 +1,48 @@
+#introduction {
+    background-image: url(../../../assets/img/emekaWebsiteBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    min-width: 100% !important;
+
+}
+
+.fill-viewport {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.main-header {
+    padding: 0 100px;
+}
+
+.main-header-font {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.text-white-70 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text-size-cus {
+    font-size: 1.7em;
+}
+
+.btn-rnd-cus {
+    border-radius: 100px !important;
+    padding: 15px 50px;
+}
+.sign-bt {
+    background-color: #ff1751;
+    border-width: 0;
+    box-shadow:0px 0px 20px #ff1751;
+}
+
+.reg-btn {
+    background-color: transparent;
+    border: 2px solid #ff1751;
+}
+.test {
+    border: 1px solid black;
+}
