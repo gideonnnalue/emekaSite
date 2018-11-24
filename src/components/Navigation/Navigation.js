@@ -16,22 +16,22 @@ const Navigation = ( props ) => {
                             <NavLink className="nav-link  font-weight-bold text-dark" to="/">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link font-weight-bold text-dark" href="#">Get Started</a>
+                            <NavLink className="nav-link font-weight-bold text-dark" to="/">Get Started</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link font-weight-bold text-dark" href="#">About Us</a>
+                            <NavLink className="nav-link font-weight-bold text-dark" to="/">About Us</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link font-weight-bold text-dark" to="/faq">FAQ</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link font-weight-bold text-dark" href="#">SUPPORT</a>
+                            <NavLink className="nav-link font-weight-bold text-dark" to="/">SUPPORT</NavLink>
                         </li>
                         <li className="nav-item">
-                            <button type="button" class="btn btn-outline-primary button-login"><a className="font-weight-bold text-dark">Login</a></button>
+                            <button type="button" class="btn btn-outline-primary button-login"><NavLink className="font-weight-bold text-dark" to="/">Login</NavLink></button>
                         </li>
                         <li className="nav-item">
-                            <button type="button" className="btn btn btn-primary button-sign-up"><a className="font-weight-bold">Sign Up</a></button>
+                            <button type="button" className="btn btn btn-primary button-sign-up"><NavLink className="font-weight-bold" to="/">Sign Up</NavLink></button>
                         </li>
                         
                     </ul>
