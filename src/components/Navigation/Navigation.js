@@ -16,7 +16,7 @@ const Navigation = ( props ) => {
                             <NavLink className="nav-link  font-weight-bold text-dark" to="/">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link font-weight-bold text-dark" to="/">Get Started</NavLink>
+                            <NavLink className="nav-link font-weight-bold text-dark" to="/rules">Rules</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link font-weight-bold text-dark" to="/">About Us</NavLink>

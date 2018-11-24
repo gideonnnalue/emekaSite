@@ -1,0 +1,18 @@
+.custom-faq-btn {
+    background-color: #01124b;
+    border: none;
+    border-radius: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    width: 300px;
+    transform: translateX(0);
+    transition: all 1000ms ease;
+}
+
+.custom-faq-btn:hover {
+    transform: translateX(20px);
+}
+
+.faq-section {
+    font: "Open Sans";
+}
