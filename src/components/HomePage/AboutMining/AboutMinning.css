@@ -1,0 +1,26 @@
+.about-minning {
+    background: url(../../../assets/img/Pic.jpg) center center no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+.about-minning:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #01124b;
+    opacity: 0.9;
+  }
+
+.fill-60-viewport {
+    min-height: 60vh;
+}
+
+.crypto-server-img {
+    widows: 400px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = ( props ) => {
@@ -12,7 +13,7 @@ const Navigation = ( props ) => {
                 <div className="collapse navbar-collapse float-right" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto text-capitalized">
                         <li className="nav-item active">
-                            <a className="nav-link  font-weight-bold text-dark" href="#">Home <span className="sr-only">(current)</span></a>
+                            <NavLink className="nav-link  font-weight-bold text-dark" to="/">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link font-weight-bold text-dark" href="#">Get Started</a>
@@ -21,7 +22,7 @@ const Navigation = ( props ) => {
                             <a className="nav-link font-weight-bold text-dark" href="#">About Us</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link font-weight-bold text-dark" href="#">FAQ</a>
+                            <NavLink className="nav-link font-weight-bold text-dark" to="/faq">FAQ</NavLink>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link font-weight-bold text-dark" href="#">SUPPORT</a>

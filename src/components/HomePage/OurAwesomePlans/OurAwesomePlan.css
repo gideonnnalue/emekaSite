@@ -1,0 +1,67 @@
+#awesome-plan-info {
+    min-width: 100% !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fill-viewport-80 {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+
+.we-work-divider {
+    height: 2px;
+    width: 25%;
+    background: #01124b;
+}
+
+.plan-heading-font {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -2px;
+    font-weight: bolder;
+    color: #0d5da0;
+}
+
+.plan-pricing-card {
+    color: #01124b;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.plan-pricing-card h2 {
+    font-weight: bolder;
+    color: #0d5da0;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+
+.plan-pricing-card h3 {
+    font-weight: bolder;
+    color: #4b8edd;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.plan-pricing-card .price-tag-plan {
+    color: #0d5da0;
+}
+
+.text-white-70 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text-size-cus {
+    font-size: 1.7em;
+}
+
+.btn-rnd-cus {
+    border-radius: 100px !important;
+    padding: 15px 50px;
+}
+
+.plan-signup-btn {
+    border-radius: 100px !important;
+    background-color: #0d5da0;
+}

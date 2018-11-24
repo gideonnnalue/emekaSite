@@ -1,14 +1,17 @@
 import React from 'react';
-import './AboutUs.css';
-import PhoneImage from '../../../assets/img/cryptbox.png';
+import './AboutMinning.css';
+import CryptoServer from '../../../assets/img/crypto_server.png';
 
 
-const aboutUs = ( props ) => {
+const AboutMinning = ( props ) => {
     return (
         <div className="container-fluid px-0">
             <section id="work-info">
-            <div class="container-fluid about-us">
-    <div class="row fill-80-viewport pt-5 px-5 align-items-center">
+            <div class="container-fluid about-minning">
+    <div class="row fill-60-viewport pt-5 px-5 align-items-center">
+    <div class="col d-none d-md-block align-self-start">
+       <img src={CryptoServer} width="500"/>
+      </div>
       <div class="col ">
        <h6 class="text-uppercase text-black-40">
         million dollar info
@@ -21,9 +24,7 @@ Summo cetero consulatu est eu, wisi dolorum duo id. Usu an mazim soluta conclusi
 Sea ei nemore principes efficiantur, has ad probo intellegam. Eam ad cetero periculis, no nobis labores vim, te dicam mucius phaedrum duo.</p>
       
     </div>
-    <div class="col d-none d-md-block align-self-start">
-       <img src={PhoneImage} class="img-fluid"/>
-      </div>
+    
     </div>
   </div>
             </section>
@@ -31,4 +32,4 @@ Sea ei nemore principes efficiantur, has ad probo intellegam. Eam ad cetero peri
     )
 }
 
-export default aboutUs;
+export default AboutMinning;

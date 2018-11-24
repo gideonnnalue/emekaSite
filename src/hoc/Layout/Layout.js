@@ -1,6 +1,7 @@
 import React from 'react';
 import Auxs from '../Auxs/Auxs.js';
 import Navigation from '../../components/Navigation/Navigation';
+import Footer from '../../components/Footer/Footer';
 
 const layout = (props) => (
     <Auxs>
@@ -8,6 +9,7 @@ const layout = (props) => (
         <main>
             {props.children}
         </main>
+        <Footer />
     </Auxs>
 );
 
