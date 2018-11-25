@@ -1,12 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from '../../assets/img/img1.png';
 import './Navigation.css';
+
 
 const Navigation = ( props ) => {
     return (
         <header className="">
-            <nav className="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light bg-light header-cus">
-                <NavLink className="navbar-brand mb-0 h1 font-weight-bold" to="/">Navbar</NavLink>
+         <nav className="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light bg-light header-cus">
+                <NavLink className="navbar-brand mb-0 h1 font-weight-bold" to="/"><img src={Logo} width="50dp"/></NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
                 </button>
@@ -17,9 +19,6 @@ const Navigation = ( props ) => {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link font-weight-bold text-dark" to="/rules">Rules</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link font-weight-bold text-dark" to="/">About Us</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link font-weight-bold text-dark" to="/faq">FAQ</NavLink>
