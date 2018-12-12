@@ -16,10 +16,10 @@ const topLandingPage = ( props ) => {
                         
                             <div className="row justify-content-center py-3">
                                 <div className="col-12 col-md-6 align-items-right text-center">
-                                    <button type="button" className="btn btn-primary text-uppercase btn-rnd-cus sign-bt main-header-font float-right d-block d-md-inline-block my-2">Login now</button>
+                                    <button type="button" className="btn btn-primary text-uppercase btn-rnd-cus sign-bt main-header-font float-right d-block d-md-inline-block my-2" onClick={props.login}>Login now</button>
                                 </div>
                                 <div className="col-12 col-md-6">
-                                    <button type="button" className="btn btn-primary text-uppercase btn-rnd-cus reg-btn main-header-font float-left d-block d-md-inline-block my-2">Register now</button>
+                                    <button type="button" className="btn btn-primary text-uppercase btn-rnd-cus reg-btn main-header-font float-left d-block d-md-inline-block my-2" onClick={props.signup}>Register now</button>
                                 </div>
                             </div>
                         </div>

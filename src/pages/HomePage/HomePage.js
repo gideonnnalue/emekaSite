@@ -121,12 +121,21 @@ const particlesOptions = {
   }
 
 class HomePage extends Component {
+
+    onLoginHandler = () => {
+      this.props.history.push('/login');
+    }
+
+    onSignupHandler = () => {
+      this.props.history.push('/signup');
+    }
+
     render () {
 
         return (
             <Auxs >
                 
-                <TopLandingPage />   
+                <TopLandingPage login={() => this.onLoginHandler()} signup={() => this.onSignupHandler()}/>
                 <HowWeWork />
                 <AboutUs />
                 <AboutMinning />

@@ -27,10 +27,10 @@ const Navigation = ( props ) => {
                             <NavLink className="nav-link font-weight-bold text-dark" to="/">SUPPORT</NavLink>
                         </li>
                         <li className="nav-item">
-                            <button type="button" class="btn btn-outline-primary button-login"><NavLink className="font-weight-bold text-dark" to="/">Login</NavLink></button>
+                            <button type="button" class="btn btn-outline-primary button-login"><NavLink className="font-weight-bold text-dark" to="/login">Login</NavLink></button>
                         </li>
                         <li className="nav-item">
-                            <button type="button" className="btn btn btn-primary button-sign-up"><NavLink className="font-weight-bold" to="/">Sign Up</NavLink></button>
+                            <button type="button" className="btn btn btn-primary button-sign-up"><NavLink className="font-weight-bold" to="/signup">Sign Up</NavLink></button>
                         </li>
                         
                     </ul>
